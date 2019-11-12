@@ -24,7 +24,7 @@
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#right-col","flex-layout.col#stack"]
+    "children": ["flex-layout.col#stack","flex-layout.col#right-col"]
   },
 
   "stack-layout": {
