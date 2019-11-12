@@ -1,0 +1,27 @@
+.containerImg {
+  background-color: #F0F0F0;
+}
+
+.sliderRoot--full {
+  position: relative;
+  top: -70px;
+  margin-bottom: -70px;
+}
+
+.containerDots {
+  position: relative;
+  top: -30px;
+}
+
+@media screen and (max-width: 40rem) {
+  
+.sliderRoot--full {
+    top: 0px;
+    margin-bottom: 0px;
+}
+
+.slide--third, .imgRegular--third, .slide--fourth, .imgRegular--fourth {
+  max-height: 400px!important;
+}
+
+}

@@ -1,0 +1,133 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+       "search-result#home",
+      "flex-layout.row#mini",
+      "flex-layout.row#deals",
+      "newsletter"
+    ]
+  },
+
+  "search-result#home": {
+    "blocks": [
+      "filter-navigator.v2",
+      "gallery#home",
+      "not-found"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "blockClass": "home",
+      "maxItemsPerPage": 8
+    }
+  },
+
+  "gallery#home": {
+    "props": {
+      "mobileLayoutMode": "small"
+    },
+    "blocks": [
+      "product-summary"
+    ]
+  },
+
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ],
+      "height": 720,
+      "showArrows": true,
+      "showDots": true,
+      "blockClass": "full"
+    }
+  },
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": false,
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Lançamentos",
+        "summary": {
+          "isOneClickBuy": false,
+          "name": {
+            "showBrandName": false,
+            "showSku": false,
+            "showProductReference": false
+          }
+        }
+      }
+    }
+  },
+
+  "shelf#home2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByPriceDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Bricks em promoção"
+      }
+    }
+  },
+
+  "product-summary#home": {
+    "props": {
+      "isOneClickBuy": false,
+      "showBadge": true,
+      "badgeText": "OFF",
+      "buyButtonText": "Colocar no carrinho",
+      "displayBuyButton": "displayButtonAlways",
+      "showCollections": false,
+      "showListPrice": true,
+      "labelSellingPrice": "De",
+      "labelListPrice": "Por",
+      "showLabels": true,
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "newsletter": {
+    "props": {
+      "label": "Receba novidades e promoções via e-mail toda semana"
+    }
+  }
+
+}

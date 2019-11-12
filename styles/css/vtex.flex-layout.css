@@ -1,0 +1,120 @@
+.flexRow--mini .stretchChildrenWidth {
+  margin: auto;
+}
+
+.flexCol--col {
+  margin-left: 10px;
+}
+
+.flexColChild--col:first-child {
+  margin: 0 0 20px;
+}
+
+.flexCol--vant {
+  padding-right: 90px;
+}
+
+.flexRow--deals {
+  background-color: #fff;
+  padding: 60px 0px;
+}
+
+.flexRow--mini .stretchChildrenWidth > *:not(img) {
+    width: auto;
+}
+
+.flexRow--deals .stretchChildrenWidth:last-child .flexCol--vant {
+  padding-left: 90px;
+  padding-right: 0;
+}
+
+.flexRow--deals .stretchChildrenWidth:nth-child(2) .flexCol--vant {
+  padding: 0 45px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: flex-start;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+
+.flexRow--menu-row [class*="styledLinkContainer"] {
+  margin: 0;
+}
+
+.flexRow--payment-methods {
+  padding: 40px 0 0;
+}
+
+.flexRow--comprar :global(.vtex-button) {
+  height: 70px;
+  border-radius: 0;
+  background: #60B452;
+  border: 0;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 40rem) {
+
+.flexRow--mini .stretchChildrenWidth > *:not(img) {
+  margin: auto;
+}
+
+.flexRow--mini {
+  padding: 0 20px;
+}
+
+.flexRow--mini .stretchChildrenWidth:last-child {
+  margin: auto;
+}
+ 
+.flexRow--mini .stretchChildrenWidth {
+  margin: 0 0 20px 0;
+}
+
+.flexCol--vant {
+  padding-right: 20px;
+  padding-left: 20px;
+} 
+
+.flexRow--deals .stretchChildrenWidth:last-child .flexCol--vant {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flexRow--deals .stretchChildrenWidth:nth-child(2) .flexCol--vant {
+  padding: 0 20px;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+}

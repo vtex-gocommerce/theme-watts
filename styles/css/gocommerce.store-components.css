@@ -1,0 +1,15 @@
+.logoContainer {
+    padding: 0;
+}
+
+.logoImage {
+    width: 197px;
+}
+
+@media screen and (max-width: 40rem) {
+
+.logoImage {
+    width: 127px;
+}
+
+}

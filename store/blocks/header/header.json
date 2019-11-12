@@ -1,0 +1,172 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#4-desktop"
+    ]
+  },
+
+  "logo.auto-image": {
+    "props": {
+      "title": "logo",
+      "href": "/",
+      "width": 107,
+      "url": "https://static.gocommerce.com/{{account}}/assets/gocommerce/png/logo.png"
+    }
+  },
+
+  "header-row#1-desktop": {
+    "children": [
+      "telemarketing"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "header-row#2-desktop": {
+    "children": [
+      "notification.bar#home"
+    ],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "Todas as nossas peças são feitas artesanalmente     •     Enviamos para todo o brasil através dos Correios"
+    }
+  },
+  "header-row#3-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "header-spacer",
+      "vtex.menu@2.x:menu#institutional"
+    ],
+    "props": {
+      "blockClass": "menu-link",
+      "inverted": "true"
+    }
+  },
+  "header-row#4-desktop": {
+    "children": [
+      "logo.auto-image",
+      "category-menu",
+      "header-spacer",
+      "header-spacer",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
+    }
+  },
+
+  "category-menu": {
+    "children": [],
+    "props": {
+      "showAllDepartments": false
+    }
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "width": "180"
+    }
+  },
+
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Go to checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray"
+    }
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile",
+      "header-row#2-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo.auto-image",
+      "header-spacer",
+      "login#mobile",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "category-menu"
+    ]
+  },
+
+  "login#mobile": {
+    "props": {
+      "showIconProfile": true
+    }
+  },
+
+  "header-row#2-mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-clothing",
+      "menu-item#category-decoration",
+      "menu-item#custom-sale"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "70"
+    }
+  }
+}

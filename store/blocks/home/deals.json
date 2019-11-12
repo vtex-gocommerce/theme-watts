@@ -1,0 +1,97 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1col1",
+      "rich-text#deal1col2"
+    ],
+    "props": {
+      "blockClass": "vant"
+    }
+  },
+  "image#deal1": {
+    "props": {
+      "src": "https://static.gocommerce.com/gc-oth7947/assets/gocommerce/png/leaf___58ce48741f678a08f3eec70480f3f11f.png",
+      "maxHeight": "60px"
+    }
+  },
+  "rich-text#deal1col1": {
+    "props": {
+      "text": "Mobilidade Ecologica",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#deal1col2": {
+    "props": {
+      "text": "Todos os produtos Watts são 100% eletricos, sem emissao de CO2, desenvolvidos para solucionar os problemas da mobilidade de forma sustentavel",
+      "blockClass": "deals1"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2col1",
+      "rich-text#deal2col2"
+    ],
+    "props": {
+      "blockClass": "vant"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "https://static.gocommerce.com/gc-oth7947/assets/gocommerce/png/star___d2c8f265eeb28ca1306b59d36cf101aa.png",
+      "maxHeight": "60px"
+    }
+  },
+  "rich-text#deal2col1": {
+    "props": {
+      "text": "Mobilidade Ecologica",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#deal2col2": {
+    "props": {
+      "text": "Todos os produtos Watts são 100% eletricos, sem emissao de CO2, desenvolvidos para solucionar os problemas da mobilidade de forma sustentavel",
+      "blockClass": "deals1"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3col1",
+      "rich-text#deal3col2"
+    ],
+    "props": {
+      "blockClass": "vant"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "https://static.gocommerce.com/gc-oth7947/assets/gocommerce/png/cash___7bcc1fa6d5fab26a9d9798873d48d2f5.png",
+      "maxHeight": "60px"
+    }
+  },
+  "rich-text#deal3col1": {
+    "props": {
+      "text": "Mobilidade Ecologica",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#deal3col2": {
+    "props": {
+      "text": "Todos os produtos Watts são 100% eletricos, sem emissao de CO2, desenvolvidos para solucionar os problemas da mobilidade de forma sustentavel",
+      "blockClass": "deals1"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+.container :global(svg) {
+    color: #fff;
+}

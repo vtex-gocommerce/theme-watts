@@ -1,0 +1,192 @@
+.notificationBarContainer {
+  background-color: #0195D4;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0;
+}
+
+.searchBarContainer {
+  max-width: 250px;
+  padding: 0;
+}
+
+.searchBarContainer input {
+  border-radius: 0px;
+  background: rgba(255,255,255,.2);
+  color: #fff;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: 0;
+  height: 70px;
+}
+
+.searchBarContainer :global(.vtex-input__prefix) {
+  border-radius: 0;
+  background: rgba(255,255,255,.2);
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #E6F1E6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #222;
+}
+
+.newsletter .container {
+  padding: 20px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #fff;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup input {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding-left: 0px;
+}
+
+.inputGroup input::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.sellingPriceValue {
+  color: #000;
+  font-weight: bold;
+}
+
+.newsletter .inputGroup :global(.vtex-input-prefix__group) {
+  border: 0;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.label:before {
+  content: "Mantenha-se Conectado";
+  display: block;
+  color: #999;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.newsletter .inputGroup {
+  padding-bottom: 4px;
+  border-bottom: 0;
+  color: #fff;
+  float: left;
+  width: 50%;
+  background: rgba(255,255,255,.2);
+  padding: 5px 20px;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .newsletter .form {
+    display: block;
+    height: 50px;
+    margin: 0;
+    max-width: 1140px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+/* Product page */
+
+.productDescriptionTitle {
+  display: none;
+}
+
+.productBrand {
+  color: #000;
+  font-weight: bold;
+}
+
+.productDescriptionText {
+  color: #000;
+  font-size: 14px;
+}
+
+.productDescriptionContainer {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 40rem) {
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: 0;
+  height: 50px;
+}
+
+.searchBarContainer {
+  max-width: 100%;
+}
+
+.label {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  float: none;
+}
+
+.newsletter .inputGroup {
+  float: none;
+  width: 100%;
+  margin-top: 20px;
+}
+  
+}

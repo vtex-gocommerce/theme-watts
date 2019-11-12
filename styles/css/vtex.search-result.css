@@ -1,0 +1,38 @@
+.orderByButton {
+    border: 1px solid #d8d8d8;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.orderByButton .filterPopupArrowIcon {
+    padding-right: 0;
+}
+
+.filter__container--title :global(.t-heading-5) {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.filterItem :global(.c-on-base) {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.container--home .buttonShowMore {
+    display: none;
+}
+
+.container--home {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 40rem) {
+
+.switch {
+    display: none;
+}
+
+}

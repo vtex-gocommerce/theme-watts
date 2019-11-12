@@ -1,0 +1,12 @@
+.shelfContentContainer {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 22px;
+    line-height: 40px;
+    color: #999;
+    font-weight: 500;
+    text-transform: uppercase;
+}

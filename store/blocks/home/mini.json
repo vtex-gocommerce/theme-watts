@@ -1,0 +1,94 @@
+{
+
+"flex-layout.row#mini": {
+    "children": [
+        "carousel#mini1",
+        "flex-layout.row#mini1"
+    ],
+    "props": {
+        "blockClass": "mini"
+    }
+},
+
+"flex-layout.row#mini1": {
+  "children": [
+    "carousel#mini2",
+    "flex-layout.col#mini"
+  ]
+},
+
+"carousel#mini1": {
+    "props": {
+    "autoplay": false,
+    "banners": [
+        {
+        "image": "https://static.gocommerce.com/gc-oth7947/assets/gocommerce/png/bicicleta___b9d1c89805e983089f77813ccd834326.png",
+        "mobileImage": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group25___96f4394cdaee469d3dc5555aabdff8b8.png"
+        }
+    ],
+    "height": 400,
+    "showArrows": false,
+    "showDots": false,
+    "blockClass": "first"
+    }
+},
+
+"carousel#mini2": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://static.gocommerce.com/gc-oth7947/assets/gocommerce/png/patinete___f808400386447e3c7a571064c32f1643.png",
+          "mobileImage": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group24___bc92fc75d1cbdbc059c1a6cd9f9659ec.png"
+        }
+      ],
+      "height": 400,
+      "showArrows": false,
+      "showDots": false,
+      "blockClass": "second"
+    }
+  },
+
+  "carousel#mini3": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://static.gocommerce.com/gc-oth7947/assets/gocommerce/png/skate___304becdb713ff5729150a60bbbebe39b.png",
+          "mobileImage": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group23___a77b68f1e14bbbba033236cd583d62c6.png"
+        }
+      ],
+      "height": 190,
+      "showArrows": false,
+      "showDots": false,
+      "blockClass": "third"
+    }
+  },
+
+  "carousel#mini4": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://static.gocommerce.com/gc-oth7947/assets/gocommerce/png/acessorio___53d34179872c9c0c5ddb00968046b149.png",
+          "mobileImage": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group23___a77b68f1e14bbbba033236cd583d62c6.png"
+        }
+      ],
+      "height": 190,
+      "showArrows": false,
+      "showDots": false,
+      "blockClass": "fourth"
+    }
+  },
+
+  "flex-layout.col#mini": {
+    "children": [
+      "carousel#mini3",
+      "carousel#mini4"
+    ],
+    "props": {
+        "blockClass": "col"
+    }
+  }
+
+}

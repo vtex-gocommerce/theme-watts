@@ -1,0 +1,27 @@
+{
+
+"flex-layout.row#tarja": {
+    "children": [
+        "carousel#tarja"
+    ],
+    "props": {
+        "blockClass": "tarja"
+    }
+},
+
+"carousel#tarja": {
+    "props": {
+    "autoplay": false,
+    "banners": [
+        {
+        "image": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/instagram___5d414c9424fbef9d71eb84437c7da44d.png",
+        "mobileImage": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/instagram___5d414c9424fbef9d71eb84437c7da44d.png"
+        }
+    ],
+    "height": 240,
+    "showArrows": false,
+    "showDots": false
+    }
+}
+
+}

@@ -1,0 +1,30 @@
+.imageNormal {
+    max-height: 200px;
+}
+
+.clearLink {
+    position: relative;
+}
+
+.buyButtonContainer {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    opacity: 0;
+}
+
+.clearLink:hover .buyButtonContainer {
+    opacity: 1;
+}
+
+.buyButton button {
+    border-radius: 0;
+    height: 58px;
+}
+
+.clearLink :global(.vtex-product-identifier-0-x-product-identifier) {
+    display: none;
+}
