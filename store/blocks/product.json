@@ -27,6 +27,12 @@
     "children": ["flex-layout.col#stack","flex-layout.col#right-col"]
   },
 
+  "buy-button": {
+    "props": {
+      "isOneClickBuy": true
+    }
+  },
+
   "stack-layout": {
     "children": [
       "flex-layout.row#product-image",
