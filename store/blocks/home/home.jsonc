@@ -27,7 +27,7 @@
 
   "rich-text#videohome": {
     "props": {
-      "text": "__<iframe width=\"100%\" height=\"500\" src=\"https://wattsmobilidade.com/modules/site/video/experiencia.mp4\" frameborder=\"0\" allow=\"accelerometer; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>__",
+      "text": "__<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/DD3nrfoMG9c\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>__",
       "blockClass": "video"
     }
   },

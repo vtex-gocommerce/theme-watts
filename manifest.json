@@ -1,7 +1,7 @@
 {
   "vendor": "gc-oth7947",
   "name": "watts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Watts Mobilidade",
   "builders": {
     "styles": "1.x",
